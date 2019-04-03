@@ -10,12 +10,11 @@ import UIKit
 
 class QuestionViewController: UIViewController {
     
-    @IBOutlet weak var singleStuckView: UIStackView!
-    @IBOutlet weak var multipleStuckView: UIStackView!
-    @IBOutlet weak var rangedStuckView: UIStackView!
+    @IBOutlet weak var singleStackView: UIStackView!
     
+    @IBOutlet weak var multipleStackView: UIStackView!
     
-    
+    @IBOutlet weak var rangedStackView: UIStackView!
     var questions: [Question] = [
         Question(text: "Which food do you like the most?",
                  type: .single,
@@ -48,20 +47,18 @@ class QuestionViewController: UIViewController {
     ]
     var questionIndex = 0
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        updateUI()
         
         
     }
     
     func updateUI() {
-        singleStuckView.isHidden = true
-        multipleStuckView.isHidden = true
-        rangedStuckView.isHidden = true
+        singleStackView.isHidden = true
+        multipleStackView.isHidden = true
+        rangedStackView.isHidden = true
         
         navigationItem.title = "Question #\(questionIndex+1)"
         
@@ -69,11 +66,11 @@ class QuestionViewController: UIViewController {
         
         switch currentQuestion.type {
         case .single:
-            singleStuckView.isHidden = false
+            singleStackView.isHidden = false
         case .multiple:
-            multipleStuckView.isHidden = false
+            multipleStackView.isHidden = false
         case .ranged:
-            rangedStuckView.isHidden = false
+            rangedStackView.isHidden = false
             
             
         }

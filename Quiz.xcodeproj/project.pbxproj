@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,7 @@
 		FAA76BE82231F33100859854 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA76BE62231F33100859854 /* Main.storyboard */; };
 		FAA76BEA2231F33400859854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA76BE92231F33400859854 /* Assets.xcassets */; };
 		FAA76BED2231F33400859854 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA76BEB2231F33400859854 /* LaunchScreen.storyboard */; };
-		FAC355DA2240AB390059899D /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC355D92240AB390059899D /* QuestionData.swift */; };
+		FAFBC6C322544430002E1C5F /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFBC6C222544430002E1C5F /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		FAA76BE92231F33400859854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAA76BEC2231F33400859854 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAA76BEE2231F33400859854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FAC355D92240AB390059899D /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
+		FAFBC6C222544430002E1C5F /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionData.swift; path = ../QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,9 +66,9 @@
 				FAA76BE92231F33400859854 /* Assets.xcassets */,
 				FAA76BEB2231F33400859854 /* LaunchScreen.storyboard */,
 				FAA76BEE2231F33400859854 /* Info.plist */,
-				FAC355D92240AB390059899D /* QuestionData.swift */,
 				FA9E9B6E225435C3001C886F /* QuestionViewController.swift */,
 				FA9E9B7022543651001C886F /* ResultsViewController.swift */,
+				FAFBC6C222544430002E1C5F /* QuestionData.swift */,
 			);
 			path = Quiz;
 			sourceTree = "<group>";
@@ -109,7 +109,7 @@
 				};
 			};
 			buildConfigurationList = FAA76BDA2231F33100859854 /* Build configuration list for PBXProject "Quiz" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -146,7 +146,7 @@
 			files = (
 				FAA76BE52231F33100859854 /* IntroductionViewController.swift in Sources */,
 				FA9E9B6F225435C3001C886F /* QuestionViewController.swift in Sources */,
-				FAC355DA2240AB390059899D /* QuestionData.swift in Sources */,
+				FAFBC6C322544430002E1C5F /* QuestionData.swift in Sources */,
 				FA9E9B7122543651001C886F /* ResultsViewController.swift in Sources */,
 				FAA76BE32231F33100859854 /* AppDelegate.swift in Sources */,
 			);

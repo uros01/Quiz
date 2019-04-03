@@ -79,7 +79,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="30" y="96"/>
+            <point key="canvasLocation" x="-174" y="-36"/>
         </scene>
         <!--Question View Controller-->
         <scene sceneID="jeU-cV-0lh">
@@ -93,7 +93,7 @@
                                 <rect key="frame" x="16" y="273.5" width="343" height="120.5"/>
                                 <subviews>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UAh-9H-NqH">
-                                        <rect key="frame" x="10.5" y="0.0" width="322" height="31"/>
+                                        <rect key="frame" x="8.5" y="0.0" width="326" height="31"/>
                                     </slider>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="113" translatesAutoresizingMaskIntoConstraints="NO" id="CNh-vd-lm3">
                                         <rect key="frame" x="73" y="50" width="197" height="20.5"/>
@@ -236,9 +236,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="rhG-OK-TaS"/>
                     <connections>
-                        <outlet property="multipleStuckView" destination="OSi-hD-Hc9" id="hdo-rG-VE3"/>
-                        <outlet property="rangedStuckView" destination="3k7-7y-W6Z" id="2QC-ep-CTQ"/>
-                        <outlet property="singleStuckView" destination="NTm-fQ-LT3" id="Ru7-QA-CG9"/>
+                        <outlet property="multipleStackView" destination="OSi-hD-Hc9" id="5DT-an-J6Z"/>
+                        <outlet property="rangedStackView" destination="3k7-7y-W6Z" id="xyR-xP-7hX"/>
+                        <outlet property="singleStackView" destination="NTm-fQ-LT3" id="eiU-Tl-oQl"/>
                         <segue destination="CSn-KE-aD2" kind="show" identifier="ResultsSeguve" id="FLL-g1-Qjy"/>
                     </connections>
                 </viewController>
