@@ -36,8 +36,10 @@ class QuestionViewController: UIViewController {
     
             // Ranged//
     @IBOutlet weak var rangedStackView: UIStackView!
+    
     @IBOutlet weak var rangedLabel1: UILabel!
-    @IBOutlet weak var rangedLabel2: UILabel!
+    
+        @IBOutlet weak var rangedLabel2: UILabel!
             //rangedSlider//
     @IBOutlet weak var rangedSlider: UISlider!
     
