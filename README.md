@@ -8,12 +8,7 @@ This app is part of the swift book and an project
 
 ## Players are presented with a light-hearted topic and answer questions that align them to a particular outcome. Here are some examples of personality quiz topics:
 What animal are you?
-This guided project will use "Which animal are you?" as the quiz topic. The four possible outcomes are: 🐶 dog, 🐱 cat,  🐰rabbit, and 🐢 turtle.
-
-Excerpt From: Apple Education. “App Development with Swift.” Apple Inc. - Education, 2017. Apple Books. https://itunes.apple.com/us/book/app-development-with-swift/id1219117996?mt=11
-
-Excerpt From: Apple Education. “App Development with Swift.” Apple Inc. - Education, 2017. Apple Books. https://itunes.apple.com/us/book/app-development-with-swift/id1219117996?mt=11
-
+The four possible outcomes are: 🐶 dog, 🐱 cat,  🐰rabbit, and 🐢 turtle.
 ![Screen Shot 2019-04-06 at 9 44 04 AM](https://user-images.githubusercontent.com/43941294/55671400-45eaf000-5855-11e9-8055-d42b12f34b3b.png)
 
 
